@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container col-12">
+    <div class="row ">
+        <div class="affichage col-10 x-large" id="screen"> </div>
+    </div>
+    <div class="row calculator-edges">
+        <div class="col-3 center-button"><button class="bouton equals" id="reset">Ac</button></div>
+        <div class="col-3 center-button"><button class="bouton function" id="square">x²</button></div>
+        <div class="col-3 center-button"><button class="bouton equals" id="del">Del</button></div>
+    
+    </div>
+    <div class="row calculator-edges">
+        <div class="col-3 center-button"><button class="bouton function" id="tan">tan(</button></div>
+        <div class="col-3 center-button"><button class="bouton function" id="sin">sin(</button></div>
+        <div class="col-3 center-button"><button class="bouton function" id="cos">cos(</button></div>        
+        <div class="col-3 center-button"><button class="bouton function" id="negate">+/-</button></div>
+    </div>
+    <div class="row calculator-edges">
+        <div class="col-3 center-button"><button class="bouton function" id="abs">|abs|</button></div>
+        <div class="col-3 center-button"><button class="bouton function" id="racine">√</button></div>
+        <div class="col-3 center-button"><button class="bouton function" id="parentes">(</button></div>
+        <div class="col-3 center-button"><button class="bouton function" id="prenthes">)</button></div>
+    </div>
+    <div class="row calculator-edges">
+        <div class="col-3 center-button"><button class="bouton nombre" id="number7">7</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="number8">8</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="number9">9</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="mark/">/</button></div>
+    </div>
+    <div class="row calculator-edges">
+        <div class="col-3 center-button"><button class="bouton nombre" id="number4">4</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="number5">5</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="number6">6</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="markx">x</button></div>
+    </div>
+    <div class="row calculator-edges">
+        <div class="col-3 center-button"><button class="bouton nombre" id="number1">1</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="number2">2</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="number3">3</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="mark-">-</button></div>
+    </div>
+    <div class="row calculator-edges" >
+        <div class="col-3 center-button"><button class="bouton nombre" id="number0">0</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="point">.</button></div>
+        <div class="col-3 center-button"><button class="bouton nombre" id="mark+">+</button></div>
+        <div class="col-3 center-button"><button class="bouton equals" id="mark=">=</button></div>
+    </div>
+    
+</div>
+
+<script src="calculator.js"></script>
+</body>
+</html>
